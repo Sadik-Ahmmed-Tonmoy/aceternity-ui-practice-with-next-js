@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThreeDCardDemo } from './ThreeDCardDemo';
+import { ThreeDCardDemo } from '../components/ThreeDCardDemo';
 
 const page = () => {
   return (

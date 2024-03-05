@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full h-10 bg-red-500 text-3xl flex justify-around container mx-auto">
+        <div className="w-full h-10 bg-red-500 text-3xl flex justify-around ">
           {" "}
           <Link href="/about">
             <Button type="primary">About</Button>

@@ -10,7 +10,7 @@ import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 const page = () => {
     return (
         <div>
-            <div className="container mx-auto">
+            <div className="">
                 <ThreeDCardDemo />
                 <GoogleGeminiEffectDemo />
                 <ThreeDCardDemo />

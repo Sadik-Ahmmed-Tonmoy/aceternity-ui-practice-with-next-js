@@ -19,13 +19,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full h-10 bg-red-500 text-3xl flex justify-around">
+        <div className="w-full h-10 bg-red-500 text-3xl flex justify-around container mx-auto">
           {" "}
           <Link href="/about">
             <Button type="primary">About</Button>
           </Link>
           <Link href="/news">
             <Button type="primary">News</Button>
+          </Link>
+          <Link href="/">
+            <Button type="primary">Home</Button>
           </Link>
           <Link href="/news/blog">
             <Button type="primary">Blog with nested route</Button>
@@ -35,6 +38,9 @@ export default function RootLayout({
           </Link>
           <Link href="/productPage/15/42/55">
             <Button type="primary">dynamic route with multiple id / catch all route</Button>
+          </Link>
+          <Link href="/dashboard/admin">
+            <Button type="primary">another layout</Button>
           </Link>
         </div>
         {children}

@@ -6,6 +6,7 @@ const AboutPage = () => {
             <h5 className={styles.title}>
 
            added module based css
+           
             </h5>
         </div>
     );
